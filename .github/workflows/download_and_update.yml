@@ -1,7 +1,7 @@
 name: Download and Update Repository
 
 on:
-  workflow_dispatch: # This allows manual triggering from the GitHub UI
+  workflow_dispatch:
 
 jobs:
   update-repo:
@@ -20,7 +20,7 @@ jobs:
       run: pip install requests
 
     - name: Run download and update script
-      run: python download_and_update.py
+      run: python ./github/download_and_update.py
 
     - name: Commit and push changes
       run: |
