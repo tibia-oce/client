@@ -55,10 +55,18 @@ def create_json_files(repo_path):
 
     for root, dirs, files in os.walk(repo_path):
         for file in files:
+            # Skip files that are .md files or that start with a '.'
+            if file.startswith('.') or file.endswith('.md'):
+                continue
+
             file_path = os.path.join(root, file)
             relative_path = os.path.relpath(file_path, repo_path)
             normalized_path = os.path.normpath(relative_path)
             path_parts = normalized_path.split(os.path.sep)
+
+            # Skip directories that start with a '.'
+            if any(part.startswith('.') for part in path_parts):
+                continue
 
             packedhash = calculate_sha256(file_path)
             size = os.path.getsize(file_path)
