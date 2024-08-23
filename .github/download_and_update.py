@@ -25,7 +25,7 @@ def download_release(repo, tag_name):
             f.write(chunk)
 
     print(f"{asset_name} downloaded successfully.")
-    return asset_path, asset_name
+    return asset_path
 
 def extract_archive(archive_path, extract_to):
     if archive_path.endswith('.zip'):
@@ -38,21 +38,14 @@ def extract_archive(archive_path, extract_to):
         raise ValueError("Unsupported archive format")
     print(f"Extracted {archive_path} to {extract_to}")
 
-def update_repository(extracted_path, repo_path):
+def update_repository(archive_path, repo_path):
     client_path = os.path.join(repo_path, 'client')
     
     # Ensure the client directory exists
     os.makedirs(client_path, exist_ok=True)
     
-    # Iterate through the items in the extracted directory
-    for item in os.listdir(extracted_path):
-        s = os.path.join(extracted_path, item)
-        d = os.path.join(client_path, item)
-        if os.path.isdir(s):
-            # Copy directory content, not the directory itself
-            shutil.copytree(s, d, dirs_exist_ok=True)
-        else:
-            shutil.copy2(s, d)
+    # Extract directly into the client directory
+    extract_archive(archive_path, client_path)
 
 if __name__ == "__main__":
     repo = "tibia-oce/otclient"  # Replace with your repo
@@ -60,12 +53,7 @@ if __name__ == "__main__":
     repo_path = "."  # Path to the current repository
 
     # Step 1: Download the release
-    archive_path, asset_name = download_release(repo, tag_name)
+    archive_path = download_release(repo, tag_name)
 
-    # Step 2: Extract the release
-    extract_to = "/tmp/extracted_files"
-    os.makedirs(extract_to, exist_ok=True)
-    extract_archive(archive_path, extract_to)
-
-    # Step 3: Update the repository files in the 'client' directory
-    update_repository(extract_to, repo_path)
+    # Step 2: Update the repository files directly in the 'client' directory
+    update_repository(archive_path, repo_path)
