@@ -5,7 +5,7 @@ import tarfile
 import hashlib
 import json
 from dataclasses import dataclass, field
-from typing import List, Dict
+from typing import List, Optional, Dict
 
 @dataclass
 class FileInfo:
@@ -15,14 +15,27 @@ class FileInfo:
     url: str
 
 @dataclass
+class ModulesJSON:
+    version: str
+    files: List[FileInfo] = field(default_factory=list)
+
+@dataclass
+class DataJSON:
+    files: List[FileInfo] = field(default_factory=list)
+
+@dataclass
+class ModsJSON:
+    files: List[FileInfo] = field(default_factory=list)
+
+@dataclass
+class ClientJSON:
+    executable: Optional[str] = None
+    files: List[FileInfo] = field(default_factory=list)
+
+@dataclass
 class ReleaseAsset:
     name: str
     browser_download_url: str
-
-@dataclass
-class JSONFile:
-    version: str = None
-    files: List[FileInfo] = field(default_factory=list)
 
 def fetch_release_data(repo: str, tag_name: str) -> dict:
     url = f"https://api.github.com/repos/{repo}/releases/tags/{tag_name}"
@@ -63,12 +76,12 @@ def calculate_sha256(file_path: str) -> str:
             sha256_hash.update(byte_block)
     return sha256_hash.hexdigest()
 
-def gather_files_info(repo_path: str) -> Dict[str, JSONFile]:
+def gather_files_info(repo_path: str) -> Dict[str, object]:
     files_info = {
-        "modules": JSONFile(version="1.0"),  # You can set the version dynamically if needed
-        "data": JSONFile(),
-        "mods": JSONFile(),
-        "client": JSONFile()
+        "modules": ModulesJSON(version="1.0"),
+        "data": DataJSON(),
+        "mods": ModsJSON(),
+        "client": ClientJSON()
     }
 
     for root, dirs, files in os.walk(repo_path):
@@ -99,12 +112,15 @@ def gather_files_info(repo_path: str) -> Dict[str, JSONFile]:
                 files_info["mods"].files.append(file_info)
             else:
                 files_info["client"].files.append(file_info)
+                # Set executable if file is an .exe
+                if file.endswith('.exe'):
+                    files_info["client"].executable = relative_path.replace(os.path.sep, '/')
 
     return files_info
 
-def write_json_files(files_info: Dict[str, JSONFile], repo_path: str) -> None:
+def write_json_files(files_info: Dict[str, object], repo_path: str) -> None:
     for key, json_file in files_info.items():
-        if json_file.files:
+        if isinstance(json_file, (ModulesJSON, DataJSON, ModsJSON, ClientJSON)):
             json_path = os.path.join(repo_path, f"{key}.json")
             with open(json_path, 'w') as file:
                 json.dump(
