@@ -147,7 +147,7 @@ def main(repo: str, tag_name: str, repo_path: str) -> None:
 
 if __name__ == "__main__":
     repo = "tibia-oce/otclient"
-    tag_name = "v0.0.1"
+    tag_name = "v1.0.0"
     repo_path = "."
 
     main(repo, tag_name, repo_path)
