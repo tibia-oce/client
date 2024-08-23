@@ -20,7 +20,7 @@ jobs:
       run: pip install requests
 
     - name: Run download and update script
-      run: python ./github/download_and_update.py
+      run: python ./.github/download_and_update.py
 
     - name: Commit and push changes
       run: |
