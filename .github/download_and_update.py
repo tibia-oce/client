@@ -51,6 +51,7 @@ def create_json_files(repo_path):
     modules = []
     data_files = []
     mod_files = []
+    client_files = []  # Files that don't fit into modules, data, or mods
 
     for root, dirs, files in os.walk(repo_path):
         for file in files:
@@ -77,6 +78,8 @@ def create_json_files(repo_path):
                 data_files.append(file_info)
             elif 'mods' in path_parts:
                 mod_files.append(file_info)
+            else:
+                client_files.append(file_info)  # Any other files go here
 
     # Write modules.json
     if modules:
@@ -99,6 +102,13 @@ def create_json_files(repo_path):
             json.dump({"files": mod_files}, json_file, indent=4)
         print(f"mods.json created successfully at {mods_json_path}")
 
+    # Write client.json for all other files
+    if client_files:
+        client_json_path = os.path.join(repo_path, 'client.json')
+        with open(client_json_path, 'w') as json_file:
+            json.dump({"files": client_files}, json_file, indent=4)
+        print(f"client.json created successfully at {client_json_path}")
+
 if __name__ == "__main__":
     repo = "tibia-oce/otclient"  # Replace with your repo
     tag_name = "v0.0.1"  # Replace with the specific tag name or 'latest' for the latest release
@@ -110,5 +120,5 @@ if __name__ == "__main__":
     # Step 2: Extract the release
     extract_archive(archive_path, repo_path)
 
-    # Step 3: Create modules.json in the top-level directory
+    # Step 3: Create JSON files in the top-level directory
     create_json_files(repo_path)
