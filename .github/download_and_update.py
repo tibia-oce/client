@@ -2,6 +2,8 @@ import requests
 import os
 import zipfile
 import tarfile
+import hashlib
+import json
 
 def download_release(repo, tag_name):
     url = f"https://api.github.com/repos/{repo}/releases/tags/{tag_name}"
@@ -37,9 +39,48 @@ def extract_archive(archive_path, extract_to):
         raise ValueError("Unsupported archive format")
     print(f"Extracted {archive_path} to {extract_to}")
 
+def calculate_sha256(file_path):
+    """Calculate the SHA-256 hash of the file contents."""
+    sha256_hash = hashlib.sha256()
+    with open(file_path, "rb") as f:
+        for byte_block in iter(lambda: f.read(4096), b""):
+            sha256_hash.update(byte_block)
+    return sha256_hash.hexdigest()
+
+def create_modules_json(repo_path):
+    modules = []
+    
+    for root, dirs, files in os.walk(repo_path):
+        for file in files:
+            file_path = os.path.join(root, file)
+            relative_path = os.path.relpath(file_path, repo_path)
+            packedhash = calculate_sha256(file_path)
+            size = os.path.getsize(file_path)
+            url = os.path.join('assets', relative_path.replace(os.path.sep, '/')) + ".lzma"
+
+            modules.append({
+                "localfile": relative_path.replace(os.path.sep, '/'),
+                "packedhash": packedhash,
+                "size": size,
+                "url": url
+            })
+
+    modules_json_path = os.path.join(repo_path, 'modules.json')
+    with open(modules_json_path, 'w') as json_file:
+        json.dump({"files": modules}, json_file, indent=4)
+
+    print(f"modules.json created successfully at {modules_json_path}")
+
 if __name__ == "__main__":
     repo = "tibia-oce/otclient"  # Replace with your repo
     tag_name = "v0.0.1"  # Replace with the specific tag name or 'latest' for the latest release
     repo_path = "."  # Path to the current repository
+
+    # Step 1: Download the release
     archive_path = download_release(repo, tag_name)
+
+    # Step 2: Extract the release
     extract_archive(archive_path, repo_path)
+
+    # Step 3: Create modules.json in the top-level directory
+    create_modules_json(repo_path)
