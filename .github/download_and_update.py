@@ -47,34 +47,49 @@ def calculate_sha256(file_path):
             sha256_hash.update(byte_block)
     return sha256_hash.hexdigest()
 
-def create_modules_json(repo_path):
+def create_json_files(repo_path):
     modules = []
-    
+    data_files = []
+
     for root, dirs, files in os.walk(repo_path):
         for file in files:
             file_path = os.path.join(root, file)
             relative_path = os.path.relpath(file_path, repo_path)
-            
-            # Check if 'modules' is in the relative path
-            if 'modules' in os.path.normpath(relative_path).split(os.path.sep):
-                packedhash = calculate_sha256(file_path)
-                size = os.path.getsize(file_path)
-                url = os.path.join('assets', relative_path.replace(os.path.sep, '/')) + ".lzma"
+            normalized_path = os.path.normpath(relative_path)
+            path_parts = normalized_path.split(os.path.sep)
 
-                modules.append({
-                    "localfile": relative_path.replace(os.path.sep, '/'),
-                    "packedhash": packedhash,
-                    "size": size,
-                    "url": url
-                })
+            packedhash = calculate_sha256(file_path)
+            size = os.path.getsize(file_path)
+            url = relative_path.replace(os.path.sep, '/')
 
-    modules_json_path = os.path.join(repo_path, 'modules.json')
-    with open(modules_json_path, 'w') as json_file:
-        json.dump({"files": modules}, json_file, indent=4)
+            file_info = {
+                "localfile": relative_path.replace(os.path.sep, '/'),
+                "packedhash": packedhash,
+                "size": size,
+                "url": url
+            }
 
-    print(f"modules.json created successfully at {modules_json_path}")
+            # Append to the appropriate list based on the directory
+            if 'modules' in path_parts:
+                modules.append(file_info)
+            elif 'data' in path_parts:
+                data_files.append(file_info)
+
+    # Write modules.json
+    if modules:
+        modules_json_path = os.path.join(repo_path, 'modules.json')
+        with open(modules_json_path, 'w') as json_file:
+            json.dump({"files": modules}, json_file, indent=4)
+        print(f"modules.json created successfully at {modules_json_path}")
+
+    # Write data.json
+    if data_files:
+        data_json_path = os.path.join(repo_path, 'data.json')
+        with open(data_json_path, 'w') as json_file:
+            json.dump({"files": data_files}, json_file, indent=4)
+        print(f"data.json created successfully at {data_json_path}")
+
     
-
 if __name__ == "__main__":
     repo = "tibia-oce/otclient"  # Replace with your repo
     tag_name = "v0.0.1"  # Replace with the specific tag name or 'latest' for the latest release
@@ -87,4 +102,4 @@ if __name__ == "__main__":
     extract_archive(archive_path, repo_path)
 
     # Step 3: Create modules.json in the top-level directory
-    create_modules_json(repo_path)
+    create_json_files(repo_path)
