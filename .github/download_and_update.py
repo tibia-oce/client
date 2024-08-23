@@ -44,16 +44,15 @@ def update_repository(extracted_path, repo_path):
     # Ensure the client directory exists
     os.makedirs(client_path, exist_ok=True)
     
+    # Iterate through the items in the extracted directory
     for item in os.listdir(extracted_path):
         s = os.path.join(extracted_path, item)
         d = os.path.join(client_path, item)
         if os.path.isdir(s):
-            if os.path.exists(d):
-                shutil.rmtree(d)
-            shutil.copytree(s, d)
+            # Copy directory content, not the directory itself
+            shutil.copytree(s, d, dirs_exist_ok=True)
         else:
             shutil.copy2(s, d)
-    print(f"Repository files updated in {client_path}.")
 
 if __name__ == "__main__":
     repo = "tibia-oce/otclient"  # Replace with your repo
