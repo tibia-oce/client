@@ -2,7 +2,6 @@ import requests
 import os
 import zipfile
 import tarfile
-import shutil
 
 def download_release(repo, tag_name):
     url = f"https://api.github.com/repos/{repo}/releases/tags/{tag_name}"
@@ -38,22 +37,9 @@ def extract_archive(archive_path, extract_to):
         raise ValueError("Unsupported archive format")
     print(f"Extracted {archive_path} to {extract_to}")
 
-def update_repository(archive_path, repo_path):
-    client_path = os.path.join(repo_path, 'client')
-    
-    # Ensure the client directory exists
-    os.makedirs(client_path, exist_ok=True)
-    
-    # Extract directly into the client directory
-    extract_archive(archive_path, client_path)
-
 if __name__ == "__main__":
     repo = "tibia-oce/otclient"  # Replace with your repo
     tag_name = "v0.0.1"  # Replace with the specific tag name or 'latest' for the latest release
     repo_path = "."  # Path to the current repository
-
-    # Step 1: Download the release
     archive_path = download_release(repo, tag_name)
-
-    # Step 2: Update the repository files directly in the 'client' directory
-    update_repository(archive_path, repo_path)
+    extract_archive(archive_path, repo_path)
