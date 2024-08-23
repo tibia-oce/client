@@ -125,7 +125,9 @@ def gather_files_info(repo_path: str) -> Dict[str, object]:
 def write_json_files(files_info: Dict[str, object], repo_path: str) -> None:
     for key, json_file in files_info.items():
         if isinstance(json_file, (ModulesJSON, DataJSON, ModsJSON, ClientJSON)):
-            json_path = os.path.join(repo_path, f"{key}.json")
+            # Add the `.windows` suffix to the filename
+            # TODO: Handle linux/dawin in future
+            json_path = os.path.join(repo_path, f"{key}.windows.json")
             with open(json_path, 'w') as file:
                 json.dump(
                     json_file.__dict__,
@@ -133,7 +135,7 @@ def write_json_files(files_info: Dict[str, object], repo_path: str) -> None:
                     default=lambda o: o.__dict__ if isinstance(o, FileInfo) else o,
                     indent=4
                 )
-            print(f"{key}.json created successfully at {json_path}")
+            print(f"{key}.windows.json created successfully at {json_path}")
 
 def main(repo: str, tag_name: str, repo_path: str) -> None:
     release_data = fetch_release_data(repo, tag_name)
@@ -147,5 +149,5 @@ if __name__ == "__main__":
     repo = "tibia-oce/otclient"
     tag_name = "v0.0.1"
     repo_path = "."
-    
+
     main(repo, tag_name, repo_path)
