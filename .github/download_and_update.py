@@ -78,25 +78,27 @@ def create_json_files(repo_path):
             elif 'mods' in path_parts:
                 mod_files.append(file_info)
 
+    # Write modules.json
     if modules:
         modules_json_path = os.path.join(repo_path, 'modules.json')
         with open(modules_json_path, 'w') as json_file:
             json.dump({"files": modules}, json_file, indent=4)
         print(f"modules.json created successfully at {modules_json_path}")
 
+    # Write data.json
     if data_files:
         data_json_path = os.path.join(repo_path, 'data.json')
         with open(data_json_path, 'w') as json_file:
             json.dump({"files": data_files}, json_file, indent=4)
         print(f"data.json created successfully at {data_json_path}")
 
+    # Write mods.json
     if mod_files:
-        mods_json_path = os.path.join(repo_path, 'data.json')
+        mods_json_path = os.path.join(repo_path, 'mods.json')
         with open(mods_json_path, 'w') as json_file:
             json.dump({"files": mod_files}, json_file, indent=4)
-        print(f"data.json created successfully at {mods_json_path}")
+        print(f"mods.json created successfully at {mods_json_path}")
 
-    
 if __name__ == "__main__":
     repo = "tibia-oce/otclient"  # Replace with your repo
     tag_name = "v0.0.1"  # Replace with the specific tag name or 'latest' for the latest release
