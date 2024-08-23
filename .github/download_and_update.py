@@ -21,16 +21,20 @@ class ModulesJSON:
 
 @dataclass
 class DataJSON:
+    version: str
     files: List[FileInfo] = field(default_factory=list)
 
 @dataclass
 class ModsJSON:
+    version: str
     files: List[FileInfo] = field(default_factory=list)
 
 @dataclass
 class ClientJSON:
-    executable: Optional[str] = None
+    version: str
+    revision: Optional[int] = 1
     files: List[FileInfo] = field(default_factory=list)
+    executable: Optional[str] = "otclient.exe"
 
 @dataclass
 class ReleaseAsset:
