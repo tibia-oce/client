@@ -1,0 +1,1079 @@
+{
+    "version": "1",
+    "files": [
+        {
+            "localfile": "tempDir/mods/README.txt",
+            "packedhash": "62d347b90760a22fa54dd81f4475f0cdd546cb788400064a90e264193cc34cb3",
+            "size": 89,
+            "url": "tempDir/mods/README.txt"
+        },
+        {
+            "localfile": "tempDir/mods/client_mods/mods.otmod",
+            "packedhash": "91455a711d49fa1c262a2bf0ea3cf5df7eca2d86e171f1908391932a528c7d85",
+            "size": 241,
+            "url": "tempDir/mods/client_mods/mods.otmod"
+        },
+        {
+            "localfile": "tempDir/mods/client_textedit/textedit.otmod",
+            "packedhash": "cd6ecae8e0ba4fc2866d6b70430eb388b14516c1be98df26345c076b4b00b80d",
+            "size": 238,
+            "url": "tempDir/mods/client_textedit/textedit.otmod"
+        },
+        {
+            "localfile": "tempDir/mods/client_textedit/textedit.otui",
+            "packedhash": "13d1be8d4cac6a95c49b18a7dd9bf4e2183f419d907ed74546d9cec97e3382de",
+            "size": 1257,
+            "url": "tempDir/mods/client_textedit/textedit.otui"
+        },
+        {
+            "localfile": "tempDir/mods/client_textedit/textedit.lua",
+            "packedhash": "2c708d0bd4d95a30b2c8518be9850e882b95247b00887814d2f9cef307bf866b",
+            "size": 3980,
+            "url": "tempDir/mods/client_textedit/textedit.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_buttons/buttons.lua",
+            "packedhash": "d2d347cb11d8dd6f989d4b01dcff771e784f719e87204beeef52f10baab9bbd3",
+            "size": 1321,
+            "url": "tempDir/mods/game_buttons/buttons.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_buttons/buttons.otui",
+            "packedhash": "6068a069735b73c28df6afe994f7b06871e0dc247fa17a3936c872c477a6f7c8",
+            "size": 104,
+            "url": "tempDir/mods/game_buttons/buttons.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_buttons/buttons.otmod",
+            "packedhash": "c87ca15a66add189584c4d4e196f34e525647401c243d2ed29ffe75d7232d838",
+            "size": 189,
+            "url": "tempDir/mods/game_buttons/buttons.otmod"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/bot.otui",
+            "packedhash": "8f544f5f71157840764feccceb10b73c29bd3549c390e2db888345eb7c3e72e6",
+            "size": 2621,
+            "url": "tempDir/mods/game_bot/bot.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/scripts.png",
+            "packedhash": "009405f5b95f60b7e14627ddd01fe344c5cabf0f5dde71214d3c476d141b92eb",
+            "size": 14295,
+            "url": "tempDir/mods/game_bot/scripts.png"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/bot.otmod",
+            "packedhash": "322c1f21eecd75b97f458c1243365e403c5b65db4fa5b4dd6ac4ae02a42d0a34",
+            "size": 175,
+            "url": "tempDir/mods/game_bot/bot.otmod"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/bot.lua",
+            "packedhash": "2e1178d0c983fbbb55e43ff437f1e272903b46b373a640d29805d39bc58d4918",
+            "size": 25108,
+            "url": "tempDir/mods/game_bot/bot.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/edit.otui",
+            "packedhash": "618680d4ad1ee96116e93903127ad9994398f09d00d12526db28bf61aa054f21",
+            "size": 6828,
+            "url": "tempDir/mods/game_bot/edit.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/executor.lua",
+            "packedhash": "98ee9695955d091c2dc9dfbc16d81ab0bc711e9263c173cf6f5381ce7404ebf6",
+            "size": 14194,
+            "url": "tempDir/mods/game_bot/executor.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/configs.png",
+            "packedhash": "469a5b973cd9736ff67e7377e8734c1be09bbc0190d88030232df927a030165e",
+            "size": 20453,
+            "url": "tempDir/mods/game_bot/configs.png"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/_Loader.lua",
+            "packedhash": "cf3ab6074b3828ce91e48a98009957d221cdba8e4effbd19bcc37f688d974656",
+            "size": 1349,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/_Loader.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/cavebot.lua",
+            "packedhash": "658576be1d79b0efb615403819db9a41ee7db079a81c930425692381fd60b149",
+            "size": 12244,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/cavebot.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/clear_tile.lua",
+            "packedhash": "43042353471f1d404fb480c5ba97f48a54ceea2e0efcbbaeccc67c4a6398795b",
+            "size": 3679,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/clear_tile.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/config.otui",
+            "packedhash": "5f0a8ed315de1c076ff140c7323a0c9c1ce580437a66223d91d43969548fead5",
+            "size": 977,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/config.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/supply_check.lua",
+            "packedhash": "08361bb73717a82bc55843305761cdddae32a1ccfd9b284b3cd9e3d436537e91",
+            "size": 4971,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/supply_check.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/cavebot.otui",
+            "packedhash": "3a6e2b65d31c3cebe9fa6218dda080f971fb87ab917a9c2f39f821fe94b00638",
+            "size": 940,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/cavebot.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/lure.lua",
+            "packedhash": "662615672749a92b15d6cd71f87982fa8416aebe42245f5755f19ae455eff04b",
+            "size": 704,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/lure.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/recorder.lua",
+            "packedhash": "50437abcc1222a20442c573a4b38992d11b2c470d5aade3c1a3e0f71038b62d1",
+            "size": 1925,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/recorder.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/example_functions.lua",
+            "packedhash": "a946454b2ca91316ac25192d87532389dd0c5f82a302f0c9aa3bb068a5fd8034",
+            "size": 2718,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/example_functions.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/bank.lua",
+            "packedhash": "7ca90aa3916042c583f81120e0509e4d5ca87c082f32b559524b50ab850f702f",
+            "size": 2804,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/bank.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/travel.lua",
+            "packedhash": "8d48f72f6a7f9fe6442d5cb00c48f879d55ecbe87b893f1d3e8d248dcbb1f682",
+            "size": 1007,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/travel.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/depositor.lua",
+            "packedhash": "82d599f4b3c989a0a2c7b26b7872653482a69cdb0d5f6706477f72f0247b81ae",
+            "size": 3867,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/depositor.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/imbuing.lua",
+            "packedhash": "f9041195be8acf8b3be6abc2fd3cf83e2271462fedb3a01d0befdb6147745ba3",
+            "size": 3029,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/imbuing.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/buy_supplies.lua",
+            "packedhash": "00561eed61514c9f1ae53fc5cb0eb59b2bf4f7c147e59b52d3eb2bbe0cc3c313",
+            "size": 1994,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/buy_supplies.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/actions.lua",
+            "packedhash": "7f8549ac5a34da496696612071164f2a0d1cfdb8ef304a6ec244a794ddd0b334",
+            "size": 15111,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/actions.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/sell_all.lua",
+            "packedhash": "c4d7928fe2a7aea1fe5feb9fcbb5b7c906d3a9984f86dcd2d1b5d0cb5dd5b53c",
+            "size": 1785,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/sell_all.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/editor.lua",
+            "packedhash": "0b9b0c8b19ce58fc923d1431d74522709565f6693df2eb4e54711ca647beebc2",
+            "size": 5631,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/editor.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/pos_check.lua",
+            "packedhash": "a1bd1a9b4a3024d7bb690bc4e9e01bca4935b7598afcf1edb9530c4a767ef657",
+            "size": 1688,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/pos_check.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/extension_template.lua",
+            "packedhash": "bc33402d86261e23942f4b69720a52498d9bdd49c85e804c5d8815e5eed9263b",
+            "size": 1927,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/extension_template.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/editor.otui",
+            "packedhash": "ae3b6bd91882ec643605431a9013cb4f6ae0b139c770aa76971d8d7a97f3fd7e",
+            "size": 776,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/editor.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/walking.lua",
+            "packedhash": "c65577aadcc3f814d349deaca3b36aa4454882dc4e9303800ee045d8d69759ec",
+            "size": 2624,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/walking.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/tasker.lua",
+            "packedhash": "8daaf2497d5655645a630443d09d9b0c245e41c4044f79514db75148cb1fa9ee",
+            "size": 5530,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/tasker.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/withdraw.lua",
+            "packedhash": "106347a49f66cd4a2e82223bd53afb1c5d573fcfada9eeaa40f7c26349577d60",
+            "size": 1575,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/withdraw.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/config.lua",
+            "packedhash": "3f82acbb5fbd4f6f5673cda90118f87293aafc4a05ca160aedd6694a780dd236",
+            "size": 3103,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/config.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/inbox_withdraw.lua",
+            "packedhash": "04065e213219cca0ced65d16ef88f985dd1cb84edcdd384b152e4fd3b2f07b7a",
+            "size": 2631,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/inbox_withdraw.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/stand_lure.lua",
+            "packedhash": "967953816efb1c7a9e20b3bde70eaf12c7acd904dc85d611e25e933b04e06b6b",
+            "size": 6164,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/stand_lure.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/minimap.lua",
+            "packedhash": "82c1a32f407560a9c6f4a0fb159148e5e5c57666bfe0797e8d5e361aac2b70b0",
+            "size": 859,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/minimap.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/doors.lua",
+            "packedhash": "36599224a8dfd78a09018ec435f82e0748fac4706884e4cec6a8c2bbdd0b1776",
+            "size": 1639,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/doors.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/d_withdraw.lua",
+            "packedhash": "e8b5d440c88c58f8168c67a216579c7764c5d5af51897a392b019bcc98aff144",
+            "size": 2830,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/cavebot/d_withdraw.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/Conditions.lua",
+            "packedhash": "9b994e853b7719d2ba0feda321eb6eeb5ba859250fc406f63b2adc565d2565d2",
+            "size": 9157,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/Conditions.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/cavebot.lua",
+            "packedhash": "dd81dcd718e56cf1b414947ba24f05028fe812730c2884fc8f1942fd98b87193",
+            "size": 1801,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/cavebot.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/Containers.lua",
+            "packedhash": "4436fb9af3871cc9e8bb7c7d781d5be86ee79c66cbf369d8b8b09fa400118e07",
+            "size": 19341,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/Containers.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/new_healer.lua",
+            "packedhash": "66442433c8637813ffbdbf5d57aa047541dc10a060bcbf8f8f4573c8d7ba27f2",
+            "size": 15514,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/new_healer.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/analyzer.otui",
+            "packedhash": "f7530812a6fc24377cdf70e6d29f998f1bbe944a92513a8ea29be45eb9a0a48c",
+            "size": 10011,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/analyzer.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/supplies.lua",
+            "packedhash": "ac0836a13c24bc2906e3333980c6465a08662fe0c84cbcf952900ad142567ca5",
+            "size": 11426,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/supplies.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/Conditions.otui",
+            "packedhash": "7f83aefd44a5613f80bed4b52f3691c27816357bf6e527e481b2ef3a0557a3c5",
+            "size": 9623,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/Conditions.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/extras.lua",
+            "packedhash": "0627fdabd3aeab64b6eb87c6d677f73f0dc8a2d61cdc6281238a4a0607f77ef3",
+            "size": 22691,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/extras.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/equip.lua",
+            "packedhash": "dd9f0f659be3c153f9bfa9d4f76d88c46072fc3d5ef77c4396146db4334000f9",
+            "size": 1334,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/equip.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/BotServer.lua",
+            "packedhash": "3ee6abaf451c5e78487ea9c330bb16c45c15d8241191f5c4c26716ae2abcd7ae",
+            "size": 7022,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/BotServer.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/exeta.lua",
+            "packedhash": "c1828c21badfe584788a9f23082860cddfed6da2498a274188488059b98555d1",
+            "size": 962,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/exeta.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/ingame_editor.lua",
+            "packedhash": "ef115f00a5be178c8b307daeb8be3fa567394548b3408b78e155fe750446ec6c",
+            "size": 769,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/ingame_editor.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/new_cavebot_lib.lua",
+            "packedhash": "97a67a0e452d780eafdb22154a851528a006344d2e3f8455dcedaa53b0fc85e4",
+            "size": 15620,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/new_cavebot_lib.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/Sio.lua",
+            "packedhash": "d156f2b906e3b9696fd0708fb3eed65f88ee9e5283cfeb9f250896eac05d939f",
+            "size": 7584,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/Sio.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/cast_food.lua",
+            "packedhash": "78e863f5edfaa9481ed3461f9a716c94af1ed4776770d877a9ba6ad17a118af4",
+            "size": 652,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/cast_food.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/antiRs.lua",
+            "packedhash": "a93224e20bacfbaedd8916c5f2608ed02efea724a6f32be6a7df00ecc18c03ff",
+            "size": 849,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/antiRs.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/extras.otui",
+            "packedhash": "67c4a77548e1c00c01037b7604ef06393c089cc46ab2a0345c5249cb8a1e6832",
+            "size": 3160,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/extras.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/alarms.otui",
+            "packedhash": "c985d3a9f79b7f3b685c3cb13a0eaf962c3a7ef77821b06e50ff87d4b07cfbcc",
+            "size": 2627,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/alarms.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/new_healer.otui",
+            "packedhash": "097d6026e75fe47df28cf62565a8be4ea0620c6a5cf35a62d5f4095b5f7f8088",
+            "size": 8058,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/new_healer.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/BotServer.otui",
+            "packedhash": "d9500108de254907dfb3718503b986eb95ad853821077bedc0d81ca8e2af5a1f",
+            "size": 3892,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/BotServer.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/HealBot.otui",
+            "packedhash": "4cc68ce20ce5220f6df4997fffa06aeda2b405974f5b6b8f0bdf5eb72d8eed8a",
+            "size": 10164,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/HealBot.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/spy_level.lua",
+            "packedhash": "d537dabd048381f7ee0dad754e1e6340575104e7e886e2bfe4e61aa7a76dceea",
+            "size": 578,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/spy_level.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/vlib.lua",
+            "packedhash": "7bf50ce3ad35182fb37e1dc672f83edc239a7cf8b1d9f9729b18f5b80379378d",
+            "size": 31399,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/vlib.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/hold_target.lua",
+            "packedhash": "3a97c73c94eb0977322237ccb1de998e0535839907d0e916c35214139c8e1901",
+            "size": 886,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/hold_target.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/alarms.lua",
+            "packedhash": "de789f19245d6283beaefc213b914eb9a305db33c9964899dcea0175a5de8640",
+            "size": 5949,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/alarms.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/version.txt",
+            "packedhash": "9c7f38a9ac4f5de592be486948ac944aff688f914e3b74e6917c7fe4715a561e",
+            "size": 3,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/version.txt"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/AttackBot.lua",
+            "packedhash": "674446742a4c3df4ece4f9a3776c4b0dd6664bd78a744f47fc09137644016980",
+            "size": 33987,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/AttackBot.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/quiver_manager.lua",
+            "packedhash": "84f5c02e491a7a636b15dc61d8f34e0e57e9a804e244b6fc0b1297fc9640d30d",
+            "size": 3375,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/quiver_manager.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/HealBot.lua",
+            "packedhash": "fc9fef3eff154bd4798ecd986988469f2e7d548bf18fd8319c6bff57381e1301",
+            "size": 21968,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/HealBot.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/combo.lua",
+            "packedhash": "00ab779359a127bd930f0fe1d0063119684565d435cecff96c3e06fe2fe3083d",
+            "size": 14398,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/combo.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/combo.otui",
+            "packedhash": "0830fd7a8efe467c02b7b7cd108b63a5fb84a30a5c7f2ad254067a50c4fb48d6",
+            "size": 8061,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/combo.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/depositer_config.otui",
+            "packedhash": "a36cd5459bea90282c72d6b3a8444398b2abaf32c2f3e69518d9c5847d5fe457",
+            "size": 2113,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/depositer_config.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/depositer_config.lua",
+            "packedhash": "4ffcd1a993bbb35d6d005617558aa565b5ca69f4c298abfb6164faeed0de2c45",
+            "size": 4230,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/depositer_config.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/playerlist.otui",
+            "packedhash": "36c88292a09f75d7fb6078223167964a933d22786daac08eedde6e549c4619b2",
+            "size": 3078,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/playerlist.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/pushmax.otui",
+            "packedhash": "f2e2029b09daece8b4c4237c178202f2f1f1ba63ae021a83f825c6a9a489a623",
+            "size": 1796,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/pushmax.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/tools.lua",
+            "packedhash": "da8238c9f795d22bf650098b1e95f454e05703296a9db176f5e6b495a99547c5",
+            "size": 1276,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/tools.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/playerlist.lua",
+            "packedhash": "9a886aeaa42cb3b99fc06067464776a1066ad837188a4b75630bb07f35d1f97c",
+            "size": 11643,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/playerlist.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/depot_withdraw.lua",
+            "packedhash": "120e1109236269d9268a6b29263cf1126a5c9fb5b1797543264716a53a1955d2",
+            "size": 2023,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/depot_withdraw.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/AttackBot.otui",
+            "packedhash": "14af1b6c95a830f7627e71d470fb6b4e39d5cba528b0e10c30928882b81d0b3e",
+            "size": 12408,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/AttackBot.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/eat_food.lua",
+            "packedhash": "f716f7485731d8f8d8ef59e9ad80b54d15f0ebe36be3015d9aba7f1c7b7c995b",
+            "size": 1383,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/eat_food.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/items.lua",
+            "packedhash": "3ba82e69853cfd5d2638361e3cc4b812af93e915ea31cef70d96d63fd5b536ea",
+            "size": 42496,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/items.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/Equipper.lua",
+            "packedhash": "fe0b654cc8854075a09e4753985a8a824c5e0b99cd49829568267429cde28287",
+            "size": 24576,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/Equipper.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/cavebot_control_panel.lua",
+            "packedhash": "45763caa85ce2db247e047fdfbbba20e627185470bec487130f0e6e02d6bc701",
+            "size": 1597,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/cavebot_control_panel.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/quiver_label.lua",
+            "packedhash": "824f04fa06ce5018c1a9da8870f4e4cce5a4b81f962e624380a1a08989e45cf4",
+            "size": 1270,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/quiver_label.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/main.lua",
+            "packedhash": "fe93572d6c565e256234feccf7c37035db5eec0be9fb0a292a8ce88dc125df28",
+            "size": 1058,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/main.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/equipper.otui",
+            "packedhash": "172d1a32494e32cb39435d14930f0fbd9c22550718a784066ab9c21d5b6018a1",
+            "size": 11212,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/equipper.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/npc_talk.lua",
+            "packedhash": "e290ec70f85c53dd98db71f20987135fb6e6b707e5b79c2a2e5c331fffd10146",
+            "size": 209,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/npc_talk.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/configs.lua",
+            "packedhash": "83641795ad01125289fc13d27d8b60225588ef5849d589dafafc2427d120300c",
+            "size": 2984,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/configs.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/supplies.otui",
+            "packedhash": "aad27c064e9d2364e012c47812de95b0a070b2da713013959390b93147e5b813",
+            "size": 5295,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/supplies.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/siolist.otui",
+            "packedhash": "1d91dec3a2a1b9bf62d6d505b7b13226ed7833105b63c724cf41c9e7b9d831b2",
+            "size": 3947,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/siolist.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/Dropper.lua",
+            "packedhash": "065ca0b14b3cd33cb83045cfbc5761fb21307b822c084fc11e2393f399a59bf8",
+            "size": 3178,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/Dropper.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/pushmax.lua",
+            "packedhash": "2534e5047af9588e7d6d9be33c30a4629c98b7473f578fb113260ca6bb930ab1",
+            "size": 7069,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/pushmax.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/xeno_menu.lua",
+            "packedhash": "2ab1c8d71ca808c5aecfa8b3e0e3d3404a246948e944e3e6ea9e43e1b0c3045b",
+            "size": 1174,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/xeno_menu.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/analyzer.lua",
+            "packedhash": "b62fa2a4c6d0ad8d48193d21d609d4b5c15cfa34462567fbdd192dfc5316b84b",
+            "size": 54651,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/vBot/analyzer.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/creature_editor.otui",
+            "packedhash": "8b59ce2bfcfcf29690a9dbbae5a81eeb373b2a7552a229a84d21d57aa7543199",
+            "size": 3386,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/creature_editor.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/target.lua",
+            "packedhash": "2da1ad5afb124a9a1def2fe471275de44b59d8afc906869fe9e794c6ecc0a34f",
+            "size": 8911,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/target.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/looting.otui",
+            "packedhash": "0ea42a008a54599506e0de5f0cd7f9703d3b7ea80375d1fcb22a5078862b0b8f",
+            "size": 1265,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/looting.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/looting.lua",
+            "packedhash": "0d043cc4728d7851bd3b486e4435ad8f81d48531a1ba174e190ab7a11a83cd74",
+            "size": 10925,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/looting.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/creature_priority.lua",
+            "packedhash": "9127d8b149eecc6fb189f7e74a40448223e79c347bf48451d34d97fda86a5839",
+            "size": 1727,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/creature_priority.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/creature_editor.lua",
+            "packedhash": "d00fb073df2638389d06318f17ddc379069e9cc362eb4882f818decc66b5522b",
+            "size": 4206,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/creature_editor.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/walking.lua",
+            "packedhash": "4076ae33d57f6e8042b4768d076e7939bb83045095b6241efe01762a821e6970",
+            "size": 753,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/walking.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/creature_attack.lua",
+            "packedhash": "f49f8379147917a263c6097d3c1f9c0f5d880621c3b629619abc2d0d07346c62",
+            "size": 8933,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/creature_attack.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/target.otui",
+            "packedhash": "db9a1a78d38441f04ee85f254c0acbc12f694509baec95aefdbea7ec159acde7",
+            "size": 2173,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/target.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/creature.lua",
+            "packedhash": "eece46cb867dcb3a89d64bc4f62b18e65bf5821c2fdb6eb0944a59c17e3c4f13",
+            "size": 3027,
+            "url": "tempDir/mods/game_bot/default_configs/vBot_4.8/targetbot/creature.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot.lua",
+            "packedhash": "2e9de833e57d764ebe6d73a6297542406ac446db0fe8267071a94d2fda004438",
+            "size": 1278,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/mwall_timer.lua",
+            "packedhash": "3573d1904d10cc52c092ee4fbb4f1f04c46343a9509f4d08e9be5535d5654d3a",
+            "size": 1028,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/mwall_timer.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/tools.lua",
+            "packedhash": "033618784f2750d57e1c3a0281e1a237f9d291c7fa5b952e51194ba1f8d64215",
+            "size": 4607,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/tools.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/hp.lua",
+            "packedhash": "297ce45b526ad3a7d6fa90fac6af6f5d63e6791d246f82c00f5ec7db53f04a01",
+            "size": 6037,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/hp.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/storage.json",
+            "packedhash": "103720bbb93b26a8e9c645095cf69b756e2d3fcc651b8d11b0bbf25906e59aad",
+            "size": 2583,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/storage.json"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/main.lua",
+            "packedhash": "4f4d6f85b8f1564752d5fb61fd2ee8b1cd5db7942e8a24cf905cd8a8eae8fd0f",
+            "size": 366,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/main.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot_configs/config_name.cfg",
+            "packedhash": "5d2345eeacf06767c468b1990ef83a284e07e4a9c093410db34bc1c6d150bf0c",
+            "size": 315,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot_configs/config_name.cfg"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot_configs/test_src.cfg",
+            "packedhash": "454df85deb97514ee9b541aa9604b28d4a444c681e65861dd5f8e7eaad791cdb",
+            "size": 1390,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot_configs/test_src.cfg"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot_configs/fast_walking.cfg",
+            "packedhash": "e98fecbb0d170c4f4c182f01d5f280efea220f0f6405ffae5c9c4a244d934848",
+            "size": 212,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot_configs/fast_walking.cfg"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot_configs/config_name.json",
+            "packedhash": "5823bb8e39ca423e74c5f4a923b2a2b75fa743f6d9e26d79aa9dc24fb68c4a43",
+            "size": 1259,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot_configs/config_name.json"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/cavebot.lua",
+            "packedhash": "bc9d417d8f2e620b4971216832538b8ab6ce5eed7af1865bf5f469b10659685e",
+            "size": 5974,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/cavebot.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/config.otui",
+            "packedhash": "5f0a8ed315de1c076ff140c7323a0c9c1ce580437a66223d91d43969548fead5",
+            "size": 977,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/config.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/cavebot.otui",
+            "packedhash": "3a6e2b65d31c3cebe9fa6218dda080f971fb87ab917a9c2f39f821fe94b00638",
+            "size": 940,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/cavebot.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/depositer.lua",
+            "packedhash": "6f5d2e00dc63359084befdf05b6a8a14cb118dd31c60a34997a6c5eff1669c9a",
+            "size": 881,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/depositer.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/recorder.lua",
+            "packedhash": "c1c29cc0882f873c3ea0673b874a67011195970637490a95b76f229bc8601617",
+            "size": 1788,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/recorder.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/example_functions.lua",
+            "packedhash": "92e2310c1138b01023d68c49f81ea41d121c0ef6cd7dfe27669df3ce34692ccd",
+            "size": 2193,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/example_functions.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/supply.otui",
+            "packedhash": "fb8f0b6fb69eab6d6fe428a81243ecbe7b1f0891f78d04e7da27c5ff743241a2",
+            "size": 1457,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/supply.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/actions.lua",
+            "packedhash": "9e72b825db98f9cc9b83e29aa63ebff22e5a0d7d954a832286f577b69f4a584c",
+            "size": 8047,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/actions.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/editor.lua",
+            "packedhash": "469000a7d6642a89b8446e64a5d2156761e71b6328df18b52e90ddc2cb483051",
+            "size": 5281,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/editor.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/extension_template.lua",
+            "packedhash": "bc33402d86261e23942f4b69720a52498d9bdd49c85e804c5d8815e5eed9263b",
+            "size": 1927,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/extension_template.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/supply.lua",
+            "packedhash": "56fc8a28798d3ccba6ad622d515ee9c3994524a637aa568ba9b48d5ea9910467",
+            "size": 1151,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/supply.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/editor.otui",
+            "packedhash": "ae3b6bd91882ec643605431a9013cb4f6ae0b139c770aa76971d8d7a97f3fd7e",
+            "size": 776,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/editor.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/walking.lua",
+            "packedhash": "c65577aadcc3f814d349deaca3b36aa4454882dc4e9303800ee045d8d69759ec",
+            "size": 2624,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/walking.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/config.lua",
+            "packedhash": "3a5688469e4479e9182bb98fa0b99edcb30b1a41cc76ba5826612baeb44a6507",
+            "size": 2706,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/cavebot/config.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/creature_editor.otui",
+            "packedhash": "dfd681724c19c186a449789dddb0132e5e7d131891eddd4f8884a32d5d803dd0",
+            "size": 3385,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/creature_editor.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/target.lua",
+            "packedhash": "0f3d58cf3cca2a9d60e3b2d4ed37ed002d1f358bc23ddf9b8320f13042cedaf3",
+            "size": 7722,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/target.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/looting.otui",
+            "packedhash": "2674924fb56e6ddd781ddb9b92cb4abf85d80409727787b86a6a4bd4bc7511da",
+            "size": 1546,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/looting.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/looting.lua",
+            "packedhash": "c26b8064d1068c58e83982dcef6999507344a2c70ced3ff2982eb0751b7c3abd",
+            "size": 9781,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/looting.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/creature_priority.lua",
+            "packedhash": "2d3811b8b4b80bd530f3960a3793924a25796e1ac8d4f9bf2183780e3bb280ed",
+            "size": 1118,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/creature_priority.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/creature_editor.lua",
+            "packedhash": "243bf0c7eb4434fd47b81ec942a5ef4200b2441caee64842b35a0fb718914189",
+            "size": 4714,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/creature_editor.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/walking.lua",
+            "packedhash": "4076ae33d57f6e8042b4768d076e7939bb83045095b6241efe01762a821e6970",
+            "size": 753,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/walking.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/creature_attack.lua",
+            "packedhash": "98764d2c5108072f03f8311aab35516eff5f05da93191805dacf1d757b2f4f81",
+            "size": 4762,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/creature_attack.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/target.otui",
+            "packedhash": "db9a1a78d38441f04ee85f254c0acbc12f694509baec95aefdbea7ec159acde7",
+            "size": 2173,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/target.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/creature.lua",
+            "packedhash": "eece46cb867dcb3a89d64bc4f62b18e65bf5821c2fdb6eb0944a59c17e3c4f13",
+            "size": 3027,
+            "url": "tempDir/mods/game_bot/default_configs/cavebot_1.3/targetbot/creature.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/ui/config.otui",
+            "packedhash": "a401db3b11ff246e6f12327d6d192ed96db9871df3ba581ee10d8b4e7ed25b40",
+            "size": 994,
+            "url": "tempDir/mods/game_bot/ui/config.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/ui/container.otui",
+            "packedhash": "d15c8ac8b66382f0ba27a71597a96d423b7789244a018a5cdb41175e745c1ff9",
+            "size": 355,
+            "url": "tempDir/mods/game_bot/ui/container.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/ui/basic.otui",
+            "packedhash": "9c2192274d6246531f727f7075e0159ac974e271db2214be0e34d9ad7eddbf57",
+            "size": 1647,
+            "url": "tempDir/mods/game_bot/ui/basic.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/ui/icons.otui",
+            "packedhash": "fed594ffea17ef335a46b8309995ebb718d8acda2aa9661bb0d61571f4beb41c",
+            "size": 1161,
+            "url": "tempDir/mods/game_bot/ui/icons.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/ui/panels.otui",
+            "packedhash": "b46ede2e6f1be2a96d622c1e533cbed60273ed8fdacc60fd9f16ba21d614339d",
+            "size": 5833,
+            "url": "tempDir/mods/game_bot/ui/panels.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/server.lua",
+            "packedhash": "aba8dc9a8c27acb1cbd755d64dcf675e1967b8953cfb696be534b3f034f06a13",
+            "size": 4661,
+            "url": "tempDir/mods/game_bot/functions/server.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/test.lua",
+            "packedhash": "20af96212fd30034c88a42ba3e9b4b560b508ef9489605e52eb5cac10c1cf279",
+            "size": 88,
+            "url": "tempDir/mods/game_bot/functions/test.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/script_loader.lua",
+            "packedhash": "e98eca6a98b75ddeb8b4709d540a7f0b8e89bc79c7356277884a068b2aee2017",
+            "size": 1838,
+            "url": "tempDir/mods/game_bot/functions/script_loader.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/player_inventory.lua",
+            "packedhash": "1db423411a4a6f293b319353cdae56ea75cdac730f7afb122284338f5888faf8",
+            "size": 1962,
+            "url": "tempDir/mods/game_bot/functions/player_inventory.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/ui.lua",
+            "packedhash": "d8f3911c40e6297c6aea662a1796da2520efe07198298de7031de763e0beee2c",
+            "size": 736,
+            "url": "tempDir/mods/game_bot/functions/ui.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/sound.lua",
+            "packedhash": "33cb76ac9949c138ce236bb390b35e3c4bf92aa440be58af313cc9347db03d5f",
+            "size": 665,
+            "url": "tempDir/mods/game_bot/functions/sound.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/map.lua",
+            "packedhash": "c561ef728aacfeab2e0fa316ad5cc79f999eeedc6720160ad1d9ea74d900a548",
+            "size": 8179,
+            "url": "tempDir/mods/game_bot/functions/map.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/icon.lua",
+            "packedhash": "c3943e457bf273679998af190fd3470e46b1d8c58f499e163a7995d3ca8db200",
+            "size": 5442,
+            "url": "tempDir/mods/game_bot/functions/icon.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/tools.lua",
+            "packedhash": "16786fd5b4e8d4d09780788ae24eab9b6aecb1b74365292aa866c240acafbb0b",
+            "size": 676,
+            "url": "tempDir/mods/game_bot/functions/tools.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/player.lua",
+            "packedhash": "fa2b516b70e797575aad8b11b490c3a3ba4c3e7d086f3e59831a62f32e27f6bd",
+            "size": 5811,
+            "url": "tempDir/mods/game_bot/functions/player.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/ui_legacy.lua",
+            "packedhash": "41c75eed4c2c511bbed091c9959cb8fee9e39d378a89f35c2d3639d844026d3b",
+            "size": 3434,
+            "url": "tempDir/mods/game_bot/functions/ui_legacy.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/ui_windows.lua",
+            "packedhash": "ce2844be476cd9c66a2db6315de6585072d49f9bd67135e7643e018b5818d0eb",
+            "size": 1296,
+            "url": "tempDir/mods/game_bot/functions/ui_windows.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/npc.lua",
+            "packedhash": "d1e788a6e3bcef1504bfa13ba331ec26d83a3cafcb9db5e1433135ad784451cc",
+            "size": 3426,
+            "url": "tempDir/mods/game_bot/functions/npc.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/const.lua",
+            "packedhash": "6f3192b16fd317ec4d0acf6a930a62709ed37f9a1633901b3e1d93f6d12017a6",
+            "size": 617,
+            "url": "tempDir/mods/game_bot/functions/const.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/player_conditions.lua",
+            "packedhash": "23e7cdb6a3cdcb1c576c16bb05220fe59355abf9a6e78d63d32d62afeca15f81",
+            "size": 2248,
+            "url": "tempDir/mods/game_bot/functions/player_conditions.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/ui_elements.lua",
+            "packedhash": "1da5c108e47d42acb6ed355739b68552b8183a0afcaa342009cf72d9a1ca4fbf",
+            "size": 9932,
+            "url": "tempDir/mods/game_bot/functions/ui_elements.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/main.lua",
+            "packedhash": "2861a3309541070e79f816236c9d05a9831739d443585eb3fa8643821dc677c7",
+            "size": 5621,
+            "url": "tempDir/mods/game_bot/functions/main.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/config.lua",
+            "packedhash": "c1222405f9f7543ca0bca910e601b050b561e73f441c9b75e48b610daf96e1ed",
+            "size": 8172,
+            "url": "tempDir/mods/game_bot/functions/config.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/functions/callbacks.lua",
+            "packedhash": "60a3d57e8e0987b8f2df5b0136b1404923f0f026b324782d08ba38988ea5d943",
+            "size": 8965,
+            "url": "tempDir/mods/game_bot/functions/callbacks.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/panels/attacking.lua",
+            "packedhash": "abe00111b530ba4bb899281f9e7e51bd8d830de014181f42d6d8296dc34c990a",
+            "size": 32553,
+            "url": "tempDir/mods/game_bot/panels/attacking.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/panels/basic.lua",
+            "packedhash": "4e6a486f6228d5ac83e9b9fafdfc7dbf0e825babb38483238839d692a21bb209",
+            "size": 1873,
+            "url": "tempDir/mods/game_bot/panels/basic.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/panels/looting.lua",
+            "packedhash": "4306f0345ef6309d04dd29052b27042687ac7276ea47d629041758a17e8bf5a2",
+            "size": 13128,
+            "url": "tempDir/mods/game_bot/panels/looting.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/panels/DONT_USE_PANELS.txt",
+            "packedhash": "6b7cdea6bb0f5bd07a04d6af8986639aecde36b056ff28f971ef44e18d53452f",
+            "size": 86,
+            "url": "tempDir/mods/game_bot/panels/DONT_USE_PANELS.txt"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/panels/tools.lua",
+            "packedhash": "0e7efea2293d38538bd331892850ab99a3a213d4933993e8a3faaf4a2d626896",
+            "size": 1290,
+            "url": "tempDir/mods/game_bot/panels/tools.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/panels/war.lua",
+            "packedhash": "c9c6b1db919b0e09f70353f5534207b6a10a9a6827a3cb963a4e52757ae95f1d",
+            "size": 3961,
+            "url": "tempDir/mods/game_bot/panels/war.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/panels/healing.lua",
+            "packedhash": "5fa9bd6fb2051c962feb3e059a001dd6db1e0cd0c83c2eef8f820ffee7d3db64",
+            "size": 10453,
+            "url": "tempDir/mods/game_bot/panels/healing.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_bot/panels/waypoints.lua",
+            "packedhash": "c18d5b7c4e3bad814d4f0bee442a2f8364d900bb536a31ba4de6583aabbcc35a",
+            "size": 25037,
+            "url": "tempDir/mods/game_bot/panels/waypoints.lua"
+        },
+        {
+            "localfile": "tempDir/mods/client_profiles/profiles.otmod",
+            "packedhash": "d0a69d5da951a212d6dd01cd6badcd6a52489dffcd964d3389208dfc096f4183",
+            "size": 234,
+            "url": "tempDir/mods/client_profiles/profiles.otmod"
+        },
+        {
+            "localfile": "tempDir/mods/client_profiles/profiles.lua",
+            "packedhash": "df361981419fd277018dbef537763f4d39345b324b0c760685a31a238b46938e",
+            "size": 4096,
+            "url": "tempDir/mods/client_profiles/profiles.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_itemselector/itemselector.lua",
+            "packedhash": "e2867307002c8f1965069e3ecb9f2edc38e593144769472ccae756c4fe2bc2b7",
+            "size": 1621,
+            "url": "tempDir/mods/game_itemselector/itemselector.lua"
+        },
+        {
+            "localfile": "tempDir/mods/game_itemselector/itemselector.otui",
+            "packedhash": "fd60ed0a13c6fed5c0b4acd3b989f4c65b72ef0b219e7e4775b8eb4d7d6fdadc",
+            "size": 1352,
+            "url": "tempDir/mods/game_itemselector/itemselector.otui"
+        },
+        {
+            "localfile": "tempDir/mods/game_itemselector/itemselector.otmod",
+            "packedhash": "ef0f753258a25bb9219f64272b7e0a8ea2f0bb113ace83fe30b310c5de7c2719",
+            "size": 261,
+            "url": "tempDir/mods/game_itemselector/itemselector.otmod"
+        }
+    ]
+}
