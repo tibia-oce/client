@@ -1,0 +1,232 @@
+{
+    "files": [
+        {
+            "localfile": "README.md",
+            "packedhash": "390abeb87b801e7e17c616e67b806bb7c45caa02e2988c7b5b5d1b9489515f0a",
+            "size": 9,
+            "url": "README.md"
+        },
+        {
+            "localfile": ".git/HEAD",
+            "packedhash": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+            "size": 21,
+            "url": ".git/HEAD"
+        },
+        {
+            "localfile": ".git/index",
+            "packedhash": "2231cc0d30fe733994374c39e40f333bcd7325e03d0d46f90f562b895b1e616b",
+            "size": 403,
+            "url": ".git/index"
+        },
+        {
+            "localfile": ".git/shallow",
+            "packedhash": "f4abd42519d34266ab8c33efe6b11db9861911a25ddef0be76e98b6ea6284b3e",
+            "size": 41,
+            "url": ".git/shallow"
+        },
+        {
+            "localfile": ".git/description",
+            "packedhash": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+            "size": 73,
+            "url": ".git/description"
+        },
+        {
+            "localfile": ".git/config",
+            "packedhash": "0074c930529847f270d26bbba2a2659221d60cf3c7b5fb8ff4ca069e833b1ffe",
+            "size": 413,
+            "url": ".git/config"
+        },
+        {
+            "localfile": ".git/FETCH_HEAD",
+            "packedhash": "5137d325a2788e4b399ea9e3bd87243414a983b597801b33df7fb654e2be46f8",
+            "size": 124,
+            "url": ".git/FETCH_HEAD"
+        },
+        {
+            "localfile": ".git/hooks/applypatch-msg.sample",
+            "packedhash": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+            "size": 478,
+            "url": ".git/hooks/applypatch-msg.sample"
+        },
+        {
+            "localfile": ".git/hooks/update.sample",
+            "packedhash": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+            "size": 3650,
+            "url": ".git/hooks/update.sample"
+        },
+        {
+            "localfile": ".git/hooks/fsmonitor-watchman.sample",
+            "packedhash": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+            "size": 4726,
+            "url": ".git/hooks/fsmonitor-watchman.sample"
+        },
+        {
+            "localfile": ".git/hooks/pre-merge-commit.sample",
+            "packedhash": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+            "size": 416,
+            "url": ".git/hooks/pre-merge-commit.sample"
+        },
+        {
+            "localfile": ".git/hooks/pre-push.sample",
+            "packedhash": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+            "size": 1374,
+            "url": ".git/hooks/pre-push.sample"
+        },
+        {
+            "localfile": ".git/hooks/commit-msg.sample",
+            "packedhash": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+            "size": 896,
+            "url": ".git/hooks/commit-msg.sample"
+        },
+        {
+            "localfile": ".git/hooks/pre-commit.sample",
+            "packedhash": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b",
+            "size": 1649,
+            "url": ".git/hooks/pre-commit.sample"
+        },
+        {
+            "localfile": ".git/hooks/pre-applypatch.sample",
+            "packedhash": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+            "size": 424,
+            "url": ".git/hooks/pre-applypatch.sample"
+        },
+        {
+            "localfile": ".git/hooks/sendemail-validate.sample",
+            "packedhash": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+            "size": 2308,
+            "url": ".git/hooks/sendemail-validate.sample"
+        },
+        {
+            "localfile": ".git/hooks/post-update.sample",
+            "packedhash": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+            "size": 189,
+            "url": ".git/hooks/post-update.sample"
+        },
+        {
+            "localfile": ".git/hooks/prepare-commit-msg.sample",
+            "packedhash": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+            "size": 1492,
+            "url": ".git/hooks/prepare-commit-msg.sample"
+        },
+        {
+            "localfile": ".git/hooks/push-to-checkout.sample",
+            "packedhash": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+            "size": 2783,
+            "url": ".git/hooks/push-to-checkout.sample"
+        },
+        {
+            "localfile": ".git/hooks/pre-receive.sample",
+            "packedhash": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+            "size": 544,
+            "url": ".git/hooks/pre-receive.sample"
+        },
+        {
+            "localfile": ".git/hooks/pre-rebase.sample",
+            "packedhash": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+            "size": 4898,
+            "url": ".git/hooks/pre-rebase.sample"
+        },
+        {
+            "localfile": ".git/objects/f2/2cd3d515bfba4d917529243fb627c14daf839b",
+            "packedhash": "eaf0c7321cd19ab8e8cec15daf7fa67f408f12e55ee820ca29d40b388a78fbcd",
+            "size": 1592,
+            "url": ".git/objects/f2/2cd3d515bfba4d917529243fb627c14daf839b"
+        },
+        {
+            "localfile": ".git/objects/f8/c9dfdcb7178a8639aed9fc0992328a3f5c893b",
+            "packedhash": "be24234933eb3493002ece2d902c12d3ef60554da0485c0d3dbb1a23e9f5d47a",
+            "size": 87,
+            "url": ".git/objects/f8/c9dfdcb7178a8639aed9fc0992328a3f5c893b"
+        },
+        {
+            "localfile": ".git/objects/e0/3a47e341f02eab96e65b2423b9e95f26117460",
+            "packedhash": "ca15af60f4e3a59719a133530946f06c1429bcb5f425a36a1d98c15360013d73",
+            "size": 24,
+            "url": ".git/objects/e0/3a47e341f02eab96e65b2423b9e95f26117460"
+        },
+        {
+            "localfile": ".git/objects/d4/bd1f110f3416ace50d25ea6010aac4da1f52d1",
+            "packedhash": "4a84d7d9750afec2a23bcad0e12c6dfbf8a6a758e9b9e2493553bc84c91ee8c2",
+            "size": 444,
+            "url": ".git/objects/d4/bd1f110f3416ace50d25ea6010aac4da1f52d1"
+        },
+        {
+            "localfile": ".git/objects/0e/eeb4e293507f8c88c9523bded9e32add3bf58a",
+            "packedhash": "19f7a2eba66a1f22caed559025c4ad8b55dbdf24ef02893f8ec6f4ca98060dee",
+            "size": 103,
+            "url": ".git/objects/0e/eeb4e293507f8c88c9523bded9e32add3bf58a"
+        },
+        {
+            "localfile": ".git/objects/d2/9aabf52936d29a0e4672769fa2747d361e23a4",
+            "packedhash": "50b59f93c3d5446d4fc0743a0d3a8eee56c3e134b3862ea65d5b2de593b22dc7",
+            "size": 68,
+            "url": ".git/objects/d2/9aabf52936d29a0e4672769fa2747d361e23a4"
+        },
+        {
+            "localfile": ".git/objects/61/7bc9a3119de3f577a8ce6f006ee202711e18f9",
+            "packedhash": "3eda7c1821ef8165680f9728b28c2813c00176f362a8a77647a50d4af900b43b",
+            "size": 185,
+            "url": ".git/objects/61/7bc9a3119de3f577a8ce6f006ee202711e18f9"
+        },
+        {
+            "localfile": ".git/refs/heads/main",
+            "packedhash": "f4abd42519d34266ab8c33efe6b11db9861911a25ddef0be76e98b6ea6284b3e",
+            "size": 41,
+            "url": ".git/refs/heads/main"
+        },
+        {
+            "localfile": ".git/refs/remotes/origin/main",
+            "packedhash": "f4abd42519d34266ab8c33efe6b11db9861911a25ddef0be76e98b6ea6284b3e",
+            "size": 41,
+            "url": ".git/refs/remotes/origin/main"
+        },
+        {
+            "localfile": ".git/info/exclude",
+            "packedhash": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+            "size": 240,
+            "url": ".git/info/exclude"
+        },
+        {
+            "localfile": ".git/logs/HEAD",
+            "packedhash": "22d07a6b07cdc56bcb6adfaea1f4f681830db025c821c39cbddaa38d02c2ddfe",
+            "size": 217,
+            "url": ".git/logs/HEAD"
+        },
+        {
+            "localfile": ".git/logs/refs/heads/main",
+            "packedhash": "fe35bd59a3694de5289b8353983d218d17747be6416849c8c52a60fb84005b34",
+            "size": 226,
+            "url": ".git/logs/refs/heads/main"
+        },
+        {
+            "localfile": ".git/logs/refs/remotes/origin/main",
+            "packedhash": "c347744eb7807aedd134b27a697aad88272e9147762e2416e5ec396113ed8a7e",
+            "size": 336,
+            "url": ".git/logs/refs/remotes/origin/main"
+        },
+        {
+            "localfile": "tempDir/init.lua",
+            "packedhash": "4d628b96fe446101dc4cfec537dbd54ed7c7148596f3e4f5d54fe9d5bbfbdf6f",
+            "size": 3630,
+            "url": "tempDir/init.lua"
+        },
+        {
+            "localfile": "tempDir/otclient.exe",
+            "packedhash": "599d00d3688e146c318e8ca730bd63975962e7075c0ed1733778e126a1252fc2",
+            "size": 21011968,
+            "url": "tempDir/otclient.exe"
+        },
+        {
+            "localfile": ".github/download_and_update.py",
+            "packedhash": "4217fdaba2b033e995aa301ccfc0382bae3be64f30d0c298c30653dda09838f6",
+            "size": 4650,
+            "url": ".github/download_and_update.py"
+        },
+        {
+            "localfile": ".github/workflows/download_and_update.yml",
+            "packedhash": "c37aacbe9eedf1eeb52feba2a84629fb5a74841cf3d36fc946ec11afc3931fcf",
+            "size": 843,
+            "url": ".github/workflows/download_and_update.yml"
+        }
+    ]
+}
