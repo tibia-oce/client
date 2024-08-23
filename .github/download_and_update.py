@@ -48,9 +48,15 @@ def calculate_sha256(file_path):
     return sha256_hash.hexdigest()
 
 def create_modules_json(repo_path):
+    modules_dir = os.path.join(repo_path, 'modules')
+    
+    if not os.path.exists(modules_dir):
+        print(f"No 'modules' directory found in {repo_path}.")
+        return
+    
     modules = []
     
-    for root, dirs, files in os.walk(repo_path):
+    for root, dirs, files in os.walk(modules_dir):
         for file in files:
             file_path = os.path.join(root, file)
             relative_path = os.path.relpath(file_path, repo_path)
@@ -70,6 +76,7 @@ def create_modules_json(repo_path):
         json.dump({"files": modules}, json_file, indent=4)
 
     print(f"modules.json created successfully at {modules_json_path}")
+
 
 if __name__ == "__main__":
     repo = "tibia-oce/otclient"  # Replace with your repo
