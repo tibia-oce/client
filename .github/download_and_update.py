@@ -48,35 +48,32 @@ def calculate_sha256(file_path):
     return sha256_hash.hexdigest()
 
 def create_modules_json(repo_path):
-    modules_dir = os.path.join(repo_path, 'modules')
-    
-    if not os.path.exists(modules_dir):
-        print(f"No 'modules' directory found in {repo_path}.")
-        return
-    
     modules = []
     
-    for root, dirs, files in os.walk(modules_dir):
+    for root, dirs, files in os.walk(repo_path):
         for file in files:
             file_path = os.path.join(root, file)
             relative_path = os.path.relpath(file_path, repo_path)
-            packedhash = calculate_sha256(file_path)
-            size = os.path.getsize(file_path)
-            url = os.path.join('assets', relative_path.replace(os.path.sep, '/')) + ".lzma"
+            
+            # Check if 'modules' is in the relative path
+            if 'modules' in os.path.normpath(relative_path).split(os.path.sep):
+                packedhash = calculate_sha256(file_path)
+                size = os.path.getsize(file_path)
+                url = os.path.join('assets', relative_path.replace(os.path.sep, '/')) + ".lzma"
 
-            modules.append({
-                "localfile": relative_path.replace(os.path.sep, '/'),
-                "packedhash": packedhash,
-                "size": size,
-                "url": url
-            })
+                modules.append({
+                    "localfile": relative_path.replace(os.path.sep, '/'),
+                    "packedhash": packedhash,
+                    "size": size,
+                    "url": url
+                })
 
     modules_json_path = os.path.join(repo_path, 'modules.json')
     with open(modules_json_path, 'w') as json_file:
         json.dump({"files": modules}, json_file, indent=4)
 
     print(f"modules.json created successfully at {modules_json_path}")
-
+    
 
 if __name__ == "__main__":
     repo = "tibia-oce/otclient"  # Replace with your repo
