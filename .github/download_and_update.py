@@ -16,25 +16,25 @@ class FileInfo:
 
 @dataclass
 class ModulesJSON:
-    version: str
+    version: Optional[str] = "1"
     files: List[FileInfo] = field(default_factory=list)
 
 @dataclass
 class DataJSON:
-    version: str
+    version: Optional[str] = "1"
     files: List[FileInfo] = field(default_factory=list)
 
 @dataclass
 class ModsJSON:
-    version: str
+    version: Optional[str] = "1"
     files: List[FileInfo] = field(default_factory=list)
 
 @dataclass
 class ClientJSON:
-    version: str
+    version: Optional[str] = "1"
     revision: Optional[int] = 1
-    files: List[FileInfo] = field(default_factory=list)
     executable: Optional[str] = "otclient.exe"
+    files: List[FileInfo] = field(default_factory=list)
 
 @dataclass
 class ReleaseAsset:
@@ -82,7 +82,7 @@ def calculate_sha256(file_path: str) -> str:
 
 def gather_files_info(repo_path: str) -> Dict[str, object]:
     files_info = {
-        "modules": ModulesJSON(version="1.0"),
+        "modules": ModulesJSON(),
         "data": DataJSON(),
         "mods": ModsJSON(),
         "client": ClientJSON()
