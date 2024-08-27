@@ -4,6 +4,30 @@
     "executable": "client/otclient.exe",
     "files": [
         {
+            "localfile": "mods.windows.json",
+            "packedhash": "721fac2c8b01aafad346efe8b7c274f1590439492990aa154dc006f71bb4e3e9",
+            "size": 55126,
+            "url": "mods.windows.json"
+        },
+        {
+            "localfile": "data.windows.json",
+            "packedhash": "00968affd1ebb5b571e423ed5924aa9673306eed61d847e01aec4ba06fae606d",
+            "size": 170403,
+            "url": "data.windows.json"
+        },
+        {
+            "localfile": "modules.windows.json",
+            "packedhash": "7c01e06e8362b97d2f1a408c567f315beb3e4a1a1b5c0bb38f2262eb83e8d624",
+            "size": 711675,
+            "url": "modules.windows.json"
+        },
+        {
+            "localfile": "client.windows.json",
+            "packedhash": "e0eaa84ef6c594795c7ff5320d0e19a1aac91b16be725af136a9baf206e15284",
+            "size": 559,
+            "url": "client.windows.json"
+        },
+        {
             "localfile": "client/init.lua",
             "packedhash": "4d628b96fe446101dc4cfec537dbd54ed7c7148596f3e4f5d54fe9d5bbfbdf6f",
             "size": 3630,
@@ -11,8 +35,8 @@
         },
         {
             "localfile": "client/otclient.exe",
-            "packedhash": "b29be10fe6be51d6f8472a993612147c527e1da4ebdf053e7ba49359c0213625",
-            "size": 21011968,
+            "packedhash": "aee462cf7adbfbf8c2163755555f68c6198e25fb6d254e9cf6f9589e0a9dc14f",
+            "size": 21013504,
             "url": "client/otclient.exe"
         }
     ]

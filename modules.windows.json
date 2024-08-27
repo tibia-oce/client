@@ -591,14 +591,14 @@
         },
         {
             "localfile": "client/modules/game_attachedeffects/effects.lua",
-            "packedhash": "306484e0a8bc31fa0d722231a7709dc457cd97e60d47388e700a1e5652627d86",
-            "size": 4465,
+            "packedhash": "f284a7eef6ef64f56d51dbb078ceb93ded94f548dbd1a3bab4b8cff6859c5045",
+            "size": 4601,
             "url": "client/modules/game_attachedeffects/effects.lua"
         },
         {
             "localfile": "client/modules/game_attachedeffects/lib.lua",
-            "packedhash": "3f7e80a14ee4c31b3d8d68b28d03aaa53f218b29de9ad037a3dc77328b571379",
-            "size": 5277,
+            "packedhash": "e34e9aeac5a960b9382753f6776ea1b6fe225fb4700d736b24f836483c86d95d",
+            "size": 5522,
             "url": "client/modules/game_attachedeffects/lib.lua"
         },
         {
@@ -12747,8 +12747,8 @@
         },
         {
             "localfile": "client/modules/game_mainpanel/mainpanel.lua",
-            "packedhash": "b32893cee0051e8f69b3d1067acccfdf494c3b4d36668c31e54db845be12e1f7",
-            "size": 6655,
+            "packedhash": "00cfe98bf7d0470d9e7ad22fb36fba41f5b9a45f706a29627e2453958d6d3610",
+            "size": 6656,
             "url": "client/modules/game_mainpanel/mainpanel.lua"
         },
         {
@@ -12771,8 +12771,8 @@
         },
         {
             "localfile": "client/modules/game_quickloot/quickloot.lua",
-            "packedhash": "c32cbe8a6d2f76b2b2711d6e3df28a246e448737d1514b5de49aee86d8a56bdc",
-            "size": 14334,
+            "packedhash": "ec047a1e69b60fbf3ae83bbd893a64e7ad69ced6f25997b17180b6f91c84f2e6",
+            "size": 14415,
             "url": "client/modules/game_quickloot/quickloot.lua"
         },
         {

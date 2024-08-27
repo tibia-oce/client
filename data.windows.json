@@ -3620,6 +3620,18 @@
             "url": "client/data/sounds/Private_Message.ogg"
         },
         {
+            "localfile": "client/data/things/1098/Tibia.spr",
+            "packedhash": "041f55f13662517e57cf93fb0c3f743ad8d2bd8aec14d408842f5bf57eeb6653",
+            "size": 172178083,
+            "url": "client/data/things/1098/Tibia.spr"
+        },
+        {
+            "localfile": "client/data/things/1098/Tibia.dat",
+            "packedhash": "abb36b19e672920121c9bff833ec72c8d01738a297dff07a9d2b8c0c636d8338",
+            "size": 1976912,
+            "url": "client/data/things/1098/Tibia.dat"
+        },
+        {
             "localfile": "client/data/cursors/cursors.otml",
             "packedhash": "bd25a69f245b0b6aaa654c377baa989c3b0d8fc203a206659b9b24db572007aa",
             "size": 224,
