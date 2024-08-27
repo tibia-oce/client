@@ -16,6 +16,10 @@ jobs:
       with:
         python-version: '3.x'
 
+    - name: Install Git LFS
+      run: |
+        git lfs install
+
     - name: Install dependencies
       run: pip install requests
 
