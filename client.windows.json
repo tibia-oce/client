@@ -4,6 +4,30 @@
     "executable": "client/otclient.exe",
     "files": [
         {
+            "localfile": "data.windows.json",
+            "packedhash": "3596b76a19be6775d3af04e700c56ead214c50e628b3c970865a4b11147084b7",
+            "size": 170927,
+            "url": "data.windows.json"
+        },
+        {
+            "localfile": "mods.windows.json",
+            "packedhash": "721fac2c8b01aafad346efe8b7c274f1590439492990aa154dc006f71bb4e3e9",
+            "size": 55126,
+            "url": "mods.windows.json"
+        },
+        {
+            "localfile": "modules.windows.json",
+            "packedhash": "9e011d81bfaf2cbe0813d0866988a81f62414250cf208fb296cd4035e99981d4",
+            "size": 711675,
+            "url": "modules.windows.json"
+        },
+        {
+            "localfile": "client.windows.json",
+            "packedhash": "1b0f21906a615546597dcd09a7a4b1988f21d03e4e9320f84561db94fe08f588",
+            "size": 559,
+            "url": "client.windows.json"
+        },
+        {
             "localfile": "client/init.lua",
             "packedhash": "4d628b96fe446101dc4cfec537dbd54ed7c7148596f3e4f5d54fe9d5bbfbdf6f",
             "size": 3630,
