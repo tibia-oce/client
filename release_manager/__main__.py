@@ -1,19 +1,16 @@
+# release_manager\__main__.py
 import typer
 
 from .release import main
 
-app = typer.Typer(help="CLI for managing GitHub releases.")
+app = typer.Typer(help="CLI for managing client GitHub releases.")
 
 
 @app.command()
 def release(
-    tag_name: str = typer.Option(..., prompt=True, help="The tag name of the release."),
-    repo: str = typer.Option(
-        "tibia-oce/otclient", help="The GitHub repository in the format 'owner/repo'."
-    ),
-    repo_path: str = typer.Option(
-        ".", help="The local path where the release assets will be extracted."
-    ),
+    tag_name: str = typer.Option(..., prompt=True),
+    repo: str = typer.Option("tibia-oce/otclient"),
+    repo_path: str = typer.Option("."),
 ) -> None:
     main(repo, tag_name, repo_path)
 
