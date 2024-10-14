@@ -19,4 +19,5 @@ type-check:
 cc: lint format-isort format-black type-check
 
 run:
+# export PATH="/home/user/.local/bin:$PATH"
 	poetry run python -m release_manager

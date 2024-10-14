@@ -117,13 +117,14 @@ def gather_files_info(
         for file in files:
             if file.startswith(".") or file.endswith(".md"):
                 continue
-            
-            if file.endswith(".zip"):
-                continue
 
             file_path = os.path.join(root, file)
             relative_path = os.path.relpath(file_path, repo_path)
             normalized_path = os.path.normpath(relative_path)
+            
+            # serverSIDE directories are for features still in dev
+            if file.endswith(".zip") or "serverSIDE" in normalized_path:
+                continue
 
             file_info = FileInfo(
                 localfile=relative_path.replace(os.path.sep, "/"),
