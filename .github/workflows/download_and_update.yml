@@ -21,11 +21,18 @@ jobs:
         git lfs install
         git lfs track "*.spr"
 
-    - name: Install dependencies
-      run: pip install requests
+    - name: Install Poetry
+      run: |
+        curl -sSL https://install.python-poetry.org | python3 -
+        export PATH="$HOME/.local/bin:$PATH"
 
-    - name: Run download and update script
-      run: python ./.github/download_and_update.py
+    - name: Install dependencies with Poetry
+      run: |
+        poetry install
+
+    - name: Run release manager
+      run: |
+        poetry run python -m release_manager --tag-name v1.0.0
 
     - name: Commit and push changes
       run: |
