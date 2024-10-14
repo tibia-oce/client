@@ -16,10 +16,10 @@ jobs:
       with:
         python-version: '3.x'
 
-    # - name: Install Git LFS
-    #   run: |
-    #     git lfs install
-    #     git lfs track "*.spr"
+    - name: Install Git LFS
+      run: |
+        git lfs install
+        git lfs track "*.spr"
 
     - name: Install Poetry
       run: |
@@ -40,6 +40,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git lfs track "Tibia.spr"
         git add .
         git commit -m "Update repository with latest release from tibia-oce/otclient"
         git push origin HEAD:main
