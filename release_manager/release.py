@@ -52,7 +52,13 @@ class ReleaseAsset:
 def fetch_release_data(repo: str, tag_name: str) -> Any:
     # todo: create a data class for this response
     url = f"https://api.github.com/repos/{repo}/releases/tags/{tag_name}"
-    response = requests.get(url)
+
+    headers = {}
+    token = os.getenv("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"token {token}"
+
+    response = requests.get(url, headers=headers)
     response.raise_for_status()
     return response.json()
 
