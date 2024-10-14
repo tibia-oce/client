@@ -1,11 +1,12 @@
-import requests
-import os
-import zipfile
-import tarfile
 import hashlib
 import json
+import os
+import tarfile
+import zipfile
 from dataclasses import dataclass, field
-from typing import List, Optional, Dict
+
+import requests
+
 
 @dataclass
 class FileInfo:
@@ -16,25 +17,25 @@ class FileInfo:
 
 @dataclass
 class ModulesJSON:
-    version: Optional[str] = "1"
-    files: List[FileInfo] = field(default_factory=list)
+    version: str | None = "1"
+    files: list[FileInfo] = field(default_factory=list)
 
 @dataclass
 class DataJSON:
-    version: Optional[str] = "1"
-    files: List[FileInfo] = field(default_factory=list)
+    version: str | None = "1"
+    files: list[FileInfo] = field(default_factory=list)
 
 @dataclass
 class ModsJSON:
-    version: Optional[str] = "1"
-    files: List[FileInfo] = field(default_factory=list)
+    version: str | None = "1"
+    files: list[FileInfo] = field(default_factory=list)
 
 @dataclass
 class ClientJSON:
-    version: Optional[str] = "1"
-    revision: Optional[int] = 1
-    executable: Optional[str] = "otclient.exe"
-    files: List[FileInfo] = field(default_factory=list)
+    version: str | None = "1"
+    revision: int | None = 1
+    executable: str | None = "otclient.exe"
+    files: list[FileInfo] = field(default_factory=list)
 
 @dataclass
 class ReleaseAsset:
@@ -80,7 +81,7 @@ def calculate_sha256(file_path: str) -> str:
             sha256_hash.update(byte_block)
     return sha256_hash.hexdigest()
 
-def gather_files_info(repo_path: str) -> Dict[str, object]:
+def gather_files_info(repo_path: str) -> dict[str, object]:
     files_info = {
         "modules": ModulesJSON(),
         "data": DataJSON(),
@@ -122,7 +123,7 @@ def gather_files_info(repo_path: str) -> Dict[str, object]:
 
     return files_info
 
-def write_json_files(files_info: Dict[str, object], repo_path: str) -> None:
+def write_json_files(files_info: dict[str, object], repo_path: str) -> None:
     for key, json_file in files_info.items():
         if isinstance(json_file, (ModulesJSON, DataJSON, ModsJSON, ClientJSON)):
             # Add the `.windows` suffix to the filename
