@@ -117,6 +117,9 @@ def gather_files_info(
         for file in files:
             if file.startswith(".") or file.endswith(".md"):
                 continue
+            
+            if file.endswith(".zip"):
+                continue
 
             file_path = os.path.join(root, file)
             relative_path = os.path.relpath(file_path, repo_path)
