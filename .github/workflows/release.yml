@@ -43,6 +43,6 @@ jobs:
         git lfs track "Tibia.spr"
         git add .
         git commit -m "Update repository with latest release from tibia-oce/otclient"
-        git push origin HEAD:main
+        git push origin HEAD:master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
