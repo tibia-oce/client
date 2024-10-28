@@ -44,11 +44,15 @@ jobs:
       id: check_version
       run: |
         current_version=$(cat version.txt)
+        echo "Current version in version.txt: $current_version"
+        echo "Release tag from GitHub: ${{ env.tag_name }}"
+        
         if [ "$current_version" = "${{ env.tag_name }}" ]; then
           echo "should_update=false" >> $GITHUB_ENV
         else
           echo "should_update=true" >> $GITHUB_ENV
-
+        fi
+      
     - name: Run release manager
       if: env.should_update == 'true'
       env:
