@@ -30,11 +30,21 @@ jobs:
       run: |
         poetry install
 
+    - name: Get latest release tag
+      id: get_latest_release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        latest_release=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          https://api.github.com/repos/tibia-oce/otclient/releases/latest | jq -r .tag_name)
+        echo "Latest release tag: $latest_release"
+        echo "tag_name=$latest_release" >> $GITHUB_ENV
+
     - name: Run release manager
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        poetry run python -m release_manager --tag-name v1.1.0
+        poetry run python -m release_manager --tag-name ${{ env.tag_name }} --repo tibia-oce/otclient
 
     - name: Commit and push changes
       run: |
@@ -42,7 +52,7 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git lfs track "Tibia.spr"
         git add .
-        git commit -m "Update repository with latest release from tibia-oce/otclient"
+        git commit -m "feat: update repository with ${{ env.tag_name }} client files"
         git push origin HEAD:master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
