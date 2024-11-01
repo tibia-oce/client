@@ -2,6 +2,12 @@
     "version": "1",
     "files": [
         {
+            "localfile": "mods.windows.json",
+            "packedhash": "ae574305dbc16fa9de90b6b7b2ed66ac699f1bef90e99a4c6b562c93ae090307",
+            "size": 55126,
+            "url": "mods.windows.json"
+        },
+        {
             "localfile": "client/mods/game_itemselector/itemselector.lua",
             "packedhash": "e2867307002c8f1965069e3ecb9f2edc38e593144769472ccae756c4fe2bc2b7",
             "size": 1621,

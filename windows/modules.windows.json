@@ -2,6 +2,12 @@
     "version": "1",
     "files": [
         {
+            "localfile": "modules.windows.json",
+            "packedhash": "9c3b32d366b49ec195b1ef3e552dc227c5573bade2809e1349e426ba69e6f9f3",
+            "size": 164463,
+            "url": "modules.windows.json"
+        },
+        {
             "localfile": "client/modules/game_playertrade/playertrade.lua",
             "packedhash": "cad3007eae6b3d4847075fe7b1852e8772c2003bdf8dd6eb2a42c3dec633603a",
             "size": 2129,
@@ -2667,8 +2673,8 @@
         },
         {
             "localfile": "client/modules/game_features/features.lua",
-            "packedhash": "cbb5565e313a0ee77f98fef725f3436aee020e07e8710f20d245c44d2a4c83b0",
-            "size": 7685,
+            "packedhash": "8b729bf1a312038e64bc384e02e10e420594616745691ced93dc63fd8fbe562e",
+            "size": 7739,
             "url": "client/modules/game_features/features.lua"
         },
         {

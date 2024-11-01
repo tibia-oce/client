@@ -2,6 +2,12 @@
     "version": "1",
     "files": [
         {
+            "localfile": "data.windows.json",
+            "packedhash": "e22149f919009e076722c891ce20bf78f5363a8622da5f093d2c7223a82380c7",
+            "size": 196273,
+            "url": "data.windows.json"
+        },
+        {
             "localfile": "client/data/setup.otml",
             "packedhash": "7d5de9960eb85c90268d8822a4f3139a5814c8945ac3e7c8bd63285cb1f57fd2",
             "size": 1022,
@@ -3849,26 +3855,26 @@
         },
         {
             "localfile": "client/data/things/1098/Tibia.dat",
-            "packedhash": "54f5d91237438b6959beecc533e62281e7132f8c4949168b597509925992f698",
-            "size": 3721253,
+            "packedhash": "51a2367522e61faa8b9743db32c02f76601bd6ae663b81efacc597f9652e9919",
+            "size": 3440649,
             "url": "client/data/things/1098/Tibia.dat"
         },
         {
             "localfile": "client/data/things/1098/Tibia.spr",
-            "packedhash": "cd1207c01be31799adf164033609422ca1ce3338c60ba492065726616548a118",
-            "size": 307722885,
+            "packedhash": "e447d308718f43e6954f66ecdbb22444765316b2969be16b6df564c733a6579e",
+            "size": 315298869,
             "url": "client/data/things/1098/Tibia.spr"
         },
         {
             "localfile": "client/data/things/1098/Tibia.otfi",
-            "packedhash": "6795765ad067573f99984f026710e22ed090236baff9c9c67d755944aeb7c697",
-            "size": 195,
+            "packedhash": "786c63c4ee5cd26f017c10edd2f530b0d98ced6d116f4dfd475677233b80fbb7",
+            "size": 194,
             "url": "client/data/things/1098/Tibia.otfi"
         },
         {
             "localfile": "client/data/things/1098/credits.txt",
-            "packedhash": "bcfb2f5555dc47b8aea145654ae3ee6d04ae883127e67dc7ac139fc0a58ac690",
-            "size": 95,
+            "packedhash": "0f26f6edd2a814d8e28f7d0f044fb5026e90081a5f07586580f4b8e5b2545901",
+            "size": 8,
             "url": "client/data/things/1098/credits.txt"
         },
         {
