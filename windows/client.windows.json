@@ -1,0 +1,19 @@
+{
+    "version": "1",
+    "revision": 1,
+    "executable": "client/otclient.exe",
+    "files": [
+        {
+            "localfile": "client/init.lua",
+            "packedhash": "436374b87b2a9ebae06b35a2501034130e321f28cfb4d418714689d7001475d7",
+            "size": 3440,
+            "url": "client/init.lua"
+        },
+        {
+            "localfile": "client/otclient.exe",
+            "packedhash": "00f6442b1ad145702a92ff31d794189c60941217944aefae17c236f918d31e30",
+            "size": 21497344,
+            "url": "client/otclient.exe"
+        }
+    ]
+}
